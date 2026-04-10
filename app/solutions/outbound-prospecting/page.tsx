@@ -1,10 +1,11 @@
+import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Target, Users, TrendingUp, Search } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Outbound Prospecting & Pipeline Building | Zaash Solutions',
-  description: 'Build the systematic prospecting engine you've never had. Lists, sequences, tracking, and weekly pipeline review for predictable B2B revenue growth.',
+  description: "Build the systematic prospecting engine you've never had. Lists, sequences, tracking, and weekly pipeline review for predictable B2B revenue growth.",
 }
 
 export default function OutboundProspectingPage() {
@@ -50,19 +51,19 @@ export default function OutboundProspectingPage() {
               {[
                 {
                   title: 'No consistent prospecting',
-                  description: 'Your team prospects when they remember or when the pipeline is empty. There's no daily/weekly cadence. Outbound happens in panic mode, not as a system.'
+                  description: "Your team prospects when they remember or when the pipeline is empty. There's no daily/weekly cadence. Outbound happens in panic mode, not as a system."
                 },
                 {
                   title: 'Lists are random',
-                  description: 'Someone exports 500 contacts from ZoomInfo with no targeting criteria. Half aren't even in your ICP. You're spraying and praying.'
+                  description: "Someone exports 500 contacts from ZoomInfo with no targeting criteria. Half aren't even in your ICP. You're spraying and praying."
                 },
                 {
                   title: 'No follow-up discipline',
-                  description: 'First email sent, no reply, and it dies. No sequence. No second touch. You're leaving 80% of potential conversations on the table.'
+                  description: "First email sent, no reply, and it dies. No sequence. No second touch. You're leaving 80% of potential conversations on the table."
                 },
                 {
-                  title: 'Can't track what's working',
-                  description: 'You don't know which lists convert, which messages get replies, or which rep is effective. Flying completely blind.'
+                  title: "Can't track what's working",
+                  description: "You don't know which lists convert, which messages get replies, or which rep is effective. Flying completely blind."
                 }
               ].map((problem, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 border border-grey-200">
@@ -97,7 +98,7 @@ export default function OutboundProspectingPage() {
                 {
                   icon: Search,
                   title: 'Target Account Lists',
-                  description: 'Define your ICP, build segmented lists with clear targeting criteria, enrich with contact data. Know exactly who you're going after and why.'
+                  description: "Define your ICP, build segmented lists with clear targeting criteria, enrich with contact data. Know exactly who you're going after and why."
                 },
                 {
                   icon: Users,
@@ -112,7 +113,7 @@ export default function OutboundProspectingPage() {
                 {
                   icon: TrendingUp,
                   title: 'Weekly Pipeline Review',
-                  description: 'Review what's working—list performance, message performance, rep performance. Iterate based on data, not gut feel.'
+                  description: "Review what's working—list performance, message performance, rep performance. Iterate based on data, not gut feel."
                 }
               ].map((item, index) => (
                 <div key={index} className="flex gap-4">
@@ -223,10 +224,10 @@ export default function OutboundProspectingPage() {
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 'Your entire pipeline comes from referrals or inbound',
-                'You've purchased prospecting tools but don't use them consistently',
-                'Your reps don't know who to target or how to prioritize',
+                "You've purchased prospecting tools but don't use them consistently",
+                "Your reps don't know who to target or how to prioritize",
                 'Outbound is sporadic—only happens when pipeline is dry',
-                'You can't predict next quarter's new opportunities',
+                "You can't predict next quarter's new opportunities",
                 'You want predictable pipeline generation, not hope-based forecasting'
               ].map((criteria, index) => (
                 <div key={index} className="flex items-start gap-3">

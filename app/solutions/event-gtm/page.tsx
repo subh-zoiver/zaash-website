@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Calendar, Users, Target, TrendingUp } from 'lucide-react'
 import type { Metadata } from 'next'
@@ -42,7 +43,7 @@ export default function EventGTMPage() {
               { title: 'No pre-event targeting', description: 'You book the booth, show up, and hope the right people walk by. No targeted outreach to get meetings booked in advance.' },
               { title: 'No follow-up system', description: 'You collect 200 business cards, someone dumps them in the CRM, and no one follows up systematically.' },
               { title: 'Generic messaging', description: 'Your booth and materials could be for any company. Nothing specific, nothing memorable, no clear CTA.' },
-              { title: 'Can't measure ROI', description: 'You spend ₹10-15L on an event and can't trace a single deal back to it. Pure faith-based marketing.' }
+              { title: "Can't measure ROI", description: "You spend ₹10-15L on an event and can't trace a single deal back to it. Pure faith-based marketing." }
             ].map((p, i) => (
               <div key={i} className="bg-white rounded-xl p-6">
                 <h3 className="text-h5 font-display font-semibold mb-3">{p.title}</h3>
@@ -62,7 +63,7 @@ export default function EventGTMPage() {
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-8">
               {[
-                { icon: Target, title: 'Pre-Event Targeting', description: 'Identify who's attending, build target list, send pre-event campaigns to book meetings. Walk in with your calendar full.' },
+                { icon: Target, title: 'Pre-Event Targeting', description: "Identify who's attending, build target list, send pre-event campaigns to book meetings. Walk in with your calendar full." },
                 { icon: Calendar, title: 'On-Ground Execution', description: 'Booth strategy, qualifying questions, lead capture process, meeting protocols. Know who to spend time on.' },
                 { icon: TrendingUp, title: 'Post-Event Nurture', description: '7-14 day follow-up sequences tailored by qualification level. Turn conversations into pipeline.' },
                 { icon: Users, title: 'Event ROI Tracking', description: 'Track every lead from event to closed deal. Know which events generate pipeline, which are vanity.' }

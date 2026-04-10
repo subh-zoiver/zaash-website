@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, Target, Users, TrendingUp, Award } from 'lucide-react'
 
@@ -155,7 +156,7 @@ export default function AboutPage() {
                 },
                 {
                   title: 'Intelligence over automation',
-                  description: 'Your tools don't need more features. You need to know what to do with them. The intelligence layer is the missing piece.'
+                  description: "Your tools don't need more features. You need to know what to do with them. The intelligence layer is the missing piece."
                 },
                 {
                   title: 'Transparency is a feature',
@@ -163,7 +164,7 @@ export default function AboutPage() {
                 },
                 {
                   title: 'Implementation over advice',
-                  description: 'PDFs don't drive change. We build it with you—CRM cleanup, process design, playbooks, training, and ongoing support.'
+                  description: "PDFs don't drive change. We build it with you—CRM cleanup, process design, playbooks, training, and ongoing support."
                 },
                 {
                   title: 'Pattern recognition over theory',

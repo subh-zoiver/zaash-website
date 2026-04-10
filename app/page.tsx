@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, TrendingUp, Target, Users, Zap, BarChart3, Shield } from 'lucide-react'
 
@@ -99,12 +100,12 @@ export default function HomePage() {
             {[
               {
                 title: 'No systematic outbound',
-                description: 'Every new client is a referral or an inbound lead. You've never built a repeatable prospecting motion.',
+                description: "Every new client is a referral or an inbound lead. You've never built a repeatable prospecting motion.",
                 impact: 'Growth capped at network size'
               },
               {
                 title: 'CRM is a graveyard',
-                description: 'Data is incomplete, outdated, or flat wrong. Reports don't reflect reality. No one trusts the numbers.',
+                description: "Data is incomplete, outdated, or flat wrong. Reports don't reflect reality. No one trusts the numbers.",
                 impact: 'Decisions made on gut feel'
               },
               {
@@ -114,13 +115,13 @@ export default function HomePage() {
               },
               {
                 title: 'Founder is the bottleneck',
-                description: 'Only you can close deals. Your team handles admin but not strategy. You can't scale yourself.',
+                description: "Only you can close deals. Your team handles admin but not strategy. You can't scale yourself.",
                 impact: 'Revenue tied to your time'
               },
               {
                 title: 'No visibility into pipeline',
-                description: 'You don't know what's real vs. hopeful. Forecasts are guesses. Surprises happen every quarter.',
-                impact: 'Can't plan hiring or ops'
+                description: "You don't know what's real vs. hopeful. Forecasts are guesses. Surprises happen every quarter.",
+                impact: "Can't plan hiring or ops"
               },
               {
                 title: 'Burned by agencies before',
@@ -249,7 +250,7 @@ export default function HomePage() {
               },
               {
                 title: 'Outbound Prospecting & Pipeline Building',
-                description: 'Build the systematic prospecting engine you've never had. Lists, sequences, tracking, and weekly pipeline review.',
+                description: "Build the systematic prospecting engine you've never had. Lists, sequences, tracking, and weekly pipeline review.",
                 href: '/solutions/outbound-prospecting',
                 icon: Users
               },

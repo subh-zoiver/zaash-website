@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Database, BarChart3, Settings, RefreshCw } from 'lucide-react'
 import type { Metadata } from 'next'
@@ -45,7 +46,7 @@ export default function CRMEfficiencyPage() {
               {[
                 {
                   title: 'Data is incomplete or wrong',
-                  description: 'Half your contacts have no email. Companies missing revenue data. Deals with no close date. Your team doesn't enter what matters.'
+                  description: "Half your contacts have no email. Companies missing revenue data. Deals with no close date. Your team doesn't enter what matters."
                 },
                 {
                   title: 'Too many duplicates',
@@ -53,11 +54,11 @@ export default function CRMEfficiencyPage() {
                 },
                 {
                   title: 'No one trusts the reports',
-                  description: 'Pipeline says ₹5Cr but you know it's actually ₹2Cr of real deals. Forecasts are fiction. Decisions made on gut feel instead.'
+                  description: "Pipeline says ₹5Cr but you know it's actually ₹2Cr of real deals. Forecasts are fiction. Decisions made on gut feel instead."
                 },
                 {
                   title: 'No automation or workflows',
-                  description: 'Everything is manual. Tasks don't auto-create. Emails don't auto-send. Your ₹50L/year CRM is being used as a glorified Excel sheet.'
+                  description: "Everything is manual. Tasks don't auto-create. Emails don't auto-send. Your ₹50L/year CRM is being used as a glorified Excel sheet."
                 }
               ].map((problem, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 border border-grey-200">
@@ -182,10 +183,10 @@ export default function CRMEfficiencyPage() {
             <h2 className="text-h2 font-display font-bold mb-6 text-center">This is for you if</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {[
-                'Your pipeline reports don't match reality',
+                "Your pipeline reports don't match reality",
                 'You have duplicate contacts and companies everywhere',
                 'Required fields are empty on most records',
-                'You can't forecast because the data is unreliable',
+                "You can't forecast because the data is unreliable",
                 'Your team hates updating the CRM',
                 'You paid for a CRM but use it like Excel'
               ].map((criteria, index) => (

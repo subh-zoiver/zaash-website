@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Target, Brain, Users, Sparkles } from 'lucide-react'
 import type { Metadata } from 'next'
@@ -43,10 +44,10 @@ export default function AccountBasedIntelligencePage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {[
-                { title: 'No clear target account list', description: 'You say "enterprise clients" but haven't defined the actual 100 companies you should be going after. Everyone chases different logos.' },
-                { title: 'Surface-level research', description: 'You know the company name and maybe the industry. You don't know their tech stack, recent initiatives, pain points, or buying committee.' },
-                { title: 'Single-threaded outreach', description: 'You contact one person at the company, they don't respond, and the account goes cold. No multi-threading, no orchestrated campaign.' },
-                { title: 'No account-level tracking', description: 'You can't see all activities across an account—who's been contacted, what's been sent, what stage each stakeholder is at.' }
+                { title: 'No clear target account list', description: "You say \"enterprise clients\" but haven't defined the actual 100 companies you should be going after. Everyone chases different logos." },
+                { title: 'Surface-level research', description: "You know the company name and maybe the industry. You don't know their tech stack, recent initiatives, pain points, or buying committee." },
+                { title: 'Single-threaded outreach', description: "You contact one person at the company, they don't respond, and the account goes cold. No multi-threading, no orchestrated campaign." },
+                { title: 'No account-level tracking', description: "You can't see all activities across an account—who's been contacted, what's been sent, what stage each stakeholder is at." }
               ].map((problem, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 border border-grey-200">
                   <h3 className="text-h5 font-display font-semibold mb-3">{problem.title}</h3>
@@ -130,7 +131,7 @@ export default function AccountBasedIntelligencePage() {
               { step: '01', title: 'Select', description: 'We define your ICP, build the target account list, prioritize by fit and intent signals.' },
               { step: '02', title: 'Research', description: 'We research each account—tech stack, recent activity, buying committee, pain points.' },
               { step: '03', title: 'Campaign', description: 'We design multi-touch campaigns per account tier. Coordinate email, LinkedIn, content, events.' },
-              { step: '04', title: 'Execute & Iterate', description: 'We launch campaigns, track engagement, run weekly account reviews, optimize based on what's working.' }
+              { step: '04', title: 'Execute & Iterate', description: "We launch campaigns, track engagement, run weekly account reviews, optimize based on what's working." }
             ].map((phase, index) => (
               <div key={index} className="bg-white rounded-xl p-6">
                 <div className="text-4xl font-bold text-accent mb-4">{phase.step}</div>
@@ -149,7 +150,7 @@ export default function AccountBasedIntelligencePage() {
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 'Your ACV is ₹20L+ and you need focused account targeting',
-                'You're chasing too many accounts with no clear prioritization',
+                "You're chasing too many accounts with no clear prioritization",
                 'Your team contacts one person per account and gives up',
                 'You want to break into strategic enterprise accounts',
                 'You need coordinated campaigns, not random outreach',

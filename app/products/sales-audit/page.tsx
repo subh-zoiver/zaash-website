@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, FileSearch, BarChart3, AlertCircle, Target, TrendingUp, Shield } from 'lucide-react'
 import type { Metadata } from 'next'
@@ -424,15 +425,15 @@ export default function SalesAuditPage() {
               {[
                 {
                   question: 'How is this different from a consulting engagement?',
-                  answer: 'The audit is diagnostic only—we tell you what's broken and what to fix, but we don't fix it. If you want implementation, that's a separate engagement (Solutions). Many clients start with the audit to validate the problem before committing to a multi-month implementation.'
+                  answer: "The audit is diagnostic only—we tell you what's broken and what to fix, but we don't fix it. If you want implementation, that's a separate engagement (Solutions). Many clients start with the audit to validate the problem before committing to a multi-month implementation."
                 },
                 {
                   question: 'Do you need access to our CRM?',
-                  answer: 'For the full audit, yes. We need read-only access to analyze data quality, pipeline health, and conversion rates. For the free diagnostic, no access is required—it's based on your answers to 5 questions.'
+                  answer: "For the full audit, yes. We need read-only access to analyze data quality, pipeline health, and conversion rates. For the free diagnostic, no access is required—it's based on your answers to 5 questions."
                 },
                 {
-                  question: 'What if we don't have a CRM?',
-                  answer: 'You still get value. We'll audit your process, tool usage, and capability gaps. The CRM section will highlight that as a critical gap and recommend next steps.'
+                  question: "What if we don't have a CRM?",
+                  answer: "You still get value. We'll audit your process, tool usage, and capability gaps. The CRM section will highlight that as a critical gap and recommend next steps."
                 },
                 {
                   question: 'Can we get a discount if we commit to implementation after?',
@@ -444,7 +445,7 @@ export default function SalesAuditPage() {
                 },
                 {
                   question: 'Is this specific to IT services companies?',
-                  answer: 'The methodology works for any B2B company, but our benchmarks and recommendations are strongest for IT services, cybersecurity, and cloud/SaaS companies—that's where we have the most data.'
+                  answer: "The methodology works for any B2B company, but our benchmarks and recommendations are strongest for IT services, cybersecurity, and cloud/SaaS companies—that's where we have the most data."
                 }
               ].map((faq, index) => (
                 <div key={index} className="bg-grey-50 rounded-xl p-6">

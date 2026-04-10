@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Target, FileText, Users, TrendingUp } from 'lucide-react'
 import type { Metadata } from 'next'
@@ -58,11 +59,11 @@ export default function SalesProcessGTMPage() {
                 },
                 {
                   title: 'The founder still closes everything',
-                  description: 'Your sales team qualifies and demos, but you step in for every negotiation. You're the bottleneck to growth.'
+                  description: "Your sales team qualifies and demos, but you step in for every negotiation. You're the bottleneck to growth."
                 },
                 {
-                  title: 'No idea what's working',
-                  description: 'You run campaigns, do events, post on LinkedIn—but can't trace a single closed deal back to any specific activity.'
+                  title: "No idea what's working",
+                  description: "You run campaigns, do events, post on LinkedIn—but can't trace a single closed deal back to any specific activity."
                 }
               ].map((problem, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 border border-grey-200">
@@ -112,7 +113,7 @@ export default function SalesProcessGTMPage() {
                 {
                   icon: TrendingUp,
                   title: 'Success Metrics & Dashboards',
-                  description: 'What gets measured gets managed. Conversion rates by stage, time in stage, rep performance, and leading indicators that predict next quarter's revenue.'
+                  description: "What gets measured gets managed. Conversion rates by stage, time in stage, rep performance, and leading indicators that predict next quarter's revenue."
                 }
               ].map((item, index) => (
                 <div key={index} className="flex gap-4">
@@ -180,7 +181,7 @@ export default function SalesProcessGTMPage() {
               {
                 step: '01',
                 title: 'Discovery',
-                description: 'We shadow your team, review your current process (if documented), and interview key stakeholders to understand what's actually happening vs. what should happen.'
+                description: "We shadow your team, review your current process (if documented), and interview key stakeholders to understand what's actually happening vs. what should happen."
               },
               {
                 step: '02',
@@ -221,12 +222,12 @@ export default function SalesProcessGTMPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {[
-                'Your pipeline is a black box—you can't predict next quarter's revenue',
+                "Your pipeline is a black box—you can't predict next quarter's revenue",
                 'Deals get stuck in stages for months with no clear owner',
-                'You've hired sales reps but they still need you to close',
+                "You've hired sales reps but they still need you to close",
                 'Your team asks "what do I do next?" more often than they should',
-                'You run reports but don't trust the data',
-                'You want to scale beyond founder-led sales but don't know where to start'
+                "You run reports but don't trust the data",
+                "You want to scale beyond founder-led sales but don't know where to start"
               ].map((criteria, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-1" />

@@ -354,12 +354,12 @@ export default function AuditPage() {
                           {index + 1}. {gap}
                         </h3>
                         <p className="text-grey-600 text-sm">
-                          {gap.includes('Outbound') && 'You're relying entirely on referrals and inbound. Growth is capped at your network size.'}
-                          {gap.includes('CRM') && 'Your data is incomplete or unreliable. You can't trust your reports or make data-driven decisions.'}
-                          {gap.includes('Tool') && 'You've purchased tools but they're not delivering ROI. Implementation and adoption are the real challenges.'}
-                          {gap.includes('Founder') && 'Only you can close deals. Your team handles admin but not strategy. You can't scale yourself.'}
-                          {gap.includes('Pipeline') && 'You don't know what's real vs. hopeful in your pipeline. Forecasts are guesses, not predictions.'}
-                          {gap.includes('Vendor') && 'You've been promised lead gen and got junk. You're skeptical of all vendors now.'}
+                          {gap.includes('Outbound') && "You're relying entirely on referrals and inbound. Growth is capped at your network size."}
+                          {gap.includes('CRM') && "Your data is incomplete or unreliable. You can't trust your reports or make data-driven decisions."}
+                          {gap.includes('Tool') && "You've purchased tools but they're not delivering ROI. Implementation and adoption are the real challenges."}
+                          {gap.includes('Founder') && "Only you can close deals. Your team handles admin but not strategy. You can't scale yourself."}
+                          {gap.includes('Pipeline') && "You don't know what's real vs. hopeful in your pipeline. Forecasts are guesses, not predictions."}
+                          {gap.includes('Vendor') && "You've been promised lead gen and got junk. You're skeptical of all vendors now."}
                         </p>
                       </div>
                     </div>
