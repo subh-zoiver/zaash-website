@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary-dark: #0F1923;
+    --color-primary: #1A2E42;
+    --color-primary-light: #243D56;
+    
+    --color-accent: #00C9A7;
+    --color-accent-hover: #00A88C;
+    --color-accent-subtle: #E6FAF7;
+    
+    --color-white: #FFFFFF;
+    --color-grey-50: #F8F9FA;
+    --color-grey-100: #F1F3F5;
+    --color-grey-200: #E9ECEF;
+    --color-grey-400: #8D99A8;
+    --color-grey-600: #4A5568;
+    --color-grey-900: #1A202C;
+    
+    --color-success: #10B981;
+    --color-warning: #F59E0B;
+    --color-danger: #EF4444;
+    --color-info: #3B82F6;
+    
+    --font-display: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-body text-grey-900 antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-content mx-auto px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-accent hover:bg-accent-hover text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 inline-flex items-center gap-2;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-accent text-accent hover:bg-accent hover:text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 inline-flex items-center gap-2;
+  }
+  
+  .btn-ghost {
+    @apply text-grey-600 hover:text-accent font-medium px-6 py-3 rounded-lg transition-colors duration-200 inline-flex items-center gap-2;
+  }
+  
+  .section-padding {
+    @apply py-section;
+  }
+  
+  .section-padding-sm {
+    @apply py-section-sm;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-grey-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all;
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent to-info bg-clip-text text-transparent;
+  }
+  
+  .bg-gradient-primary {
+    @apply bg-gradient-to-br from-primary to-primary-dark;
+  }
+  
+  .bg-gradient-accent {
+    @apply bg-gradient-to-r from-accent to-info;
+  }
+}
