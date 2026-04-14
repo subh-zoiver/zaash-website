@@ -1,0 +1,46 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[809],{446:function(e,t,a){Promise.resolve().then(a.bind(a,3116))},3116:function(e,t,a){"use strict";a.r(t),a.d(t,{default:function(){return h}});var n=a(7437);a(2265);var s=a(7138),i=a(1976),r=a(3225),c=a(2940),l=a(8711),o=a(6600),d=a(6706);function h(){return(0,n.jsxs)("div",{className:"pt-20",children:[(0,n.jsx)("div",{className:"bg-grey-700 text-white text-center py-3 px-4",children:(0,n.jsx)("p",{className:"text-sm font-medium",children:"Revenue Continuity Dashboard — Coming Soon"})}),(0,n.jsx)("section",{className:"bg-gradient-primary text-white section-padding-sm",children:(0,n.jsx)("div",{className:"container-custom",children:(0,n.jsxs)("div",{className:"max-w-4xl",children:[(0,n.jsxs)("div",{className:"flex flex-wrap items-center gap-3 mb-6",children:[(0,n.jsx)("div",{className:"inline-flex items-center gap-2 px-4 py-2 bg-accent/10 border border-accent/20 rounded-full",children:(0,n.jsx)("span",{className:"text-accent text-sm font-medium",children:"Intelligence Products / Revenue Continuity Dashboard"})}),(0,n.jsx)("div",{className:"inline-flex items-center gap-2 px-3 py-1 bg-white/10 border border-white/20 rounded-full",children:(0,n.jsx)("span",{className:"text-white/70 text-xs font-semibold uppercase tracking-wide",children:"Coming Soon"})})]}),(0,n.jsx)("h1",{className:"text-h1 font-display font-bold mb-4",children:"Revenue Continuity Dashboard"}),(0,n.jsx)("p",{className:"text-2xl text-accent font-semibold mb-4",children:"The audit does not end on delivery day"}),(0,n.jsx)("p",{className:"text-xl text-grey-100 mb-8 max-w-2xl",children:"A live dashboard that tracks your progress against audit recommendations over time. Gap score trends, checklist completion, pipeline health, call activity analysis, and a weekly AI digest. The product that turns a one-time audit into a living, compounding engagement."}),(0,n.jsxs)("div",{className:"flex flex-col sm:flex-row gap-4",children:[(0,n.jsxs)(s.default,{href:"/contact",className:"btn-primary bg-accent hover:bg-accent-hover text-lg px-8 py-4 inline-flex items-center gap-2",children:["Join the Waitlist",(0,n.jsx)(i.Z,{className:"w-5 h-5"})]}),(0,n.jsx)(s.default,{href:"/products/sales-audit",className:"btn-secondary border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4 inline-flex items-center gap-2",children:"Start with the Audit"})]})]})})}),(0,n.jsx)("section",{className:"section-padding bg-grey-50",children:(0,n.jsxs)("div",{className:"container-custom",children:[(0,n.jsx)("div",{className:"max-w-3xl mx-auto text-center mb-12",children:(0,n.jsx)("h2",{className:"text-h2 font-display font-bold mb-4",children:"What the dashboard tracks"})}),(0,n.jsx)("div",{className:"grid md:grid-cols-2 gap-8",children:[{icon:(0,n.jsx)(r.Z,{className:"w-7 h-7 text-accent"}),title:"Gap Score Over Time",description:"Your Revenue Readiness Score tracked week by week. See which gaps are closing, which are stalling, and where you are regressing."},{icon:(0,n.jsx)(c.Z,{className:"w-7 h-7 text-accent"}),title:"Checklist Completion",description:"Every action from your 30-day plan tracked to completion. Assign owners, set deadlines, mark done — and see the score move in response."},{icon:(0,n.jsx)(l.Z,{className:"w-7 h-7 text-accent"}),title:"Pipeline Health",description:"Live pipeline metrics pulled from your CRM. Stage distribution, velocity, deal risk flags, and forecast accuracy over time."},{icon:(0,n.jsx)(o.Z,{className:"w-7 h-7 text-accent"}),title:"Weekly AI Digest",description:"Every Monday: what changed last week, what needs attention this week, and the one thing most likely to move your score."},{icon:(0,n.jsx)(d.Z,{className:"w-7 h-7 text-accent"}),title:"Call Activity Analysis",description:"Volume, talk ratio, follow-up compliance, and topic trends pulled from your call capture tool. Coaching signals surfaced automatically."}].map((e,t)=>(0,n.jsxs)("div",{className:"bg-white rounded-xl p-8 shadow-sm",children:[(0,n.jsx)("div",{className:"mb-4",children:e.icon}),(0,n.jsx)("h3",{className:"text-h5 font-display font-semibold mb-3",children:e.title}),(0,n.jsx)("p",{className:"text-grey-600",children:e.description})]},t))})]})}),(0,n.jsx)("section",{className:"section-padding bg-primary text-white",children:(0,n.jsx)("div",{className:"container-custom",children:(0,n.jsxs)("div",{className:"max-w-3xl mx-auto text-center",children:[(0,n.jsx)("h2",{className:"text-h2 font-display font-bold mb-4",children:"Join the waitlist"}),(0,n.jsx)("p",{className:"text-grey-100 text-lg mb-8",children:"The Revenue Continuity Dashboard is in development. Zaash audit clients will get first access automatically."}),(0,n.jsxs)(s.default,{href:"/contact",className:"btn-primary bg-accent hover:bg-accent-hover text-lg px-8 py-4 inline-flex items-center gap-2",children:["Join the Waitlist",(0,n.jsx)(i.Z,{className:"w-5 h-5"})]})]})})})]})}},8030:function(e,t,a){"use strict";a.d(t,{Z:function(){return l}});var n=a(2265);/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let s=e=>e.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),i=function(){for(var e=arguments.length,t=Array(e),a=0;a<e;a++)t[a]=arguments[a];return t.filter((e,t,a)=>!!e&&a.indexOf(e)===t).join(" ")};/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var r={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let c=(0,n.forwardRef)((e,t)=>{let{color:a="currentColor",size:s=24,strokeWidth:c=2,absoluteStrokeWidth:l,className:o="",children:d,iconNode:h,...m}=e;return(0,n.createElement)("svg",{ref:t,...r,width:s,height:s,stroke:a,strokeWidth:l?24*Number(c)/Number(s):c,className:i("lucide",o),...m},[...h.map(e=>{let[t,a]=e;return(0,n.createElement)(t,a)}),...Array.isArray(d)?d:[d]])}),l=(e,t)=>{let a=(0,n.forwardRef)((a,r)=>{let{className:l,...o}=a;return(0,n.createElement)(c,{ref:r,iconNode:t,className:i("lucide-".concat(s(e)),l),...o})});return a.displayName="".concat(e),a}},1976:function(e,t,a){"use strict";a.d(t,{Z:function(){return n}});/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let n=(0,a(8030).Z)("ArrowRight",[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"m12 5 7 7-7 7",key:"xquz4c"}]])},8711:function(e,t,a){"use strict";a.d(t,{Z:function(){return n}});/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let n=(0,a(8030).Z)("BarChart3",[["path",{d:"M3 3v18h18",key:"1s2lah"}],["path",{d:"M18 17V9",key:"2bz60n"}],["path",{d:"M13 17V5",key:"1frdt8"}],["path",{d:"M8 17v-3",key:"17ska0"}]])},6600:function(e,t,a){"use strict";a.d(t,{Z:function(){return n}});/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let n=(0,a(8030).Z)("Bell",[["path",{d:"M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9",key:"1qo2s2"}],["path",{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0",key:"qgo35s"}]])},2940:function(e,t,a){"use strict";a.d(t,{Z:function(){return n}});/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let n=(0,a(8030).Z)("CircleCheckBig",[["path",{d:"M22 11.08V12a10 10 0 1 1-5.93-9.14",key:"g774vq"}],["path",{d:"m9 11 3 3L22 4",key:"1pflzl"}]])},6706:function(e,t,a){"use strict";a.d(t,{Z:function(){return n}});/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let n=(0,a(8030).Z)("RefreshCw",[["path",{d:"M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8",key:"v9h5vc"}],["path",{d:"M21 3v5h-5",key:"1q7to0"}],["path",{d:"M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16",key:"3uifl3"}],["path",{d:"M8 16H3v5",key:"1cv678"}]])},3225:function(e,t,a){"use strict";a.d(t,{Z:function(){return n}});/**
+ * @license lucide-react v0.383.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let n=(0,a(8030).Z)("TrendingUp",[["polyline",{points:"22 7 13.5 15.5 8.5 10.5 2 17",key:"126l90"}],["polyline",{points:"16 7 22 7 22 13",key:"kwv8wd"}]])}},function(e){e.O(0,[138,971,23,744],function(){return e(e.s=446)}),_N_E=e.O()}]);
